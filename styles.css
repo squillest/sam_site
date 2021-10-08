@@ -1,5 +1,15 @@
+    
+    
+    /*
+    Global tags 
+    */
+    
     body {
         background-color: gray;
+         }
+    p  {
+        margin-top: 0%;
+        margin-bottom: 0%;
          }
 
     img {
@@ -13,6 +23,33 @@
         position: relative;
         bottom: 220px;      
             }
+    
+     h1 { 
+        text-align: center;
+        font-size: 100px;
+        font-family: 'Esteban', serif;
+        padding: 50px;
+            }
+    div {
+        height: 40px;
+        width: 70%;
+        margin: 50px auto;
+        border-radius: 5px;
+           }
+
+    button {
+        background-color: grey;
+        font-family: 'Raleway', sans-serif;
+        font-size: large;
+        color: goldenrod;
+        border-radius: 5px;
+    }
+    button:hover {
+        background-color: goldenrod;
+        color: black;
+    }
+
+/* Classes */
     .center {
         text-align: center;
         font-size: 30pt;
@@ -22,26 +59,68 @@
         font-weight: bold !important;  
     }
 
-     h1 { 
+    .center2 {
         text-align: center;
-        font-size: 100px;
-        font-family: 'Esteban', serif;
-        padding: 50px;
-            }
+        font-size: 25pt;
+        font-style: italic;
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+        bottom: 120px;
+        font-weight: bold !important;  
+    }
+ /* IDs */
+ 
     #cca {
-        animation: color-change 10s infinite;
+        animation: color-change 5s infinite;
 
     }
 
     #ccb {
-        animation: color-change2 10s infinite;
+        animation: color-change2 5s infinite;
 
+    }     
+    
+    #topbar {
+        position: relative;
+        bottom: 160px;
+        animation: color-change3 5s infinite;
+          }
+    #bottom {
+            position: relative;
+            bottom: 10px;
+            
+          }
+    #resumebutton {
+        position: relative;
+        left: 18%;
+        bottom: 81%;
     }
+
+    #portbutton {
+        position: relative;
+        left: 26%;
+        bottom: 81%;
+    }
+
+    #picbutton {
+        position: relative;
+        left: 49%;
+        bottom: 81%;
+    }
+
+    #ambutton {
+        position: relative;
+        left: 57%;
+        bottom: 81%;
+    }
+
+          /*Animation keys*/
+    
         @keyframes color-change {
-        0% { color: rgb(255, 255, 0); }
+        0%  { color: rgb(255, 255, 0); }
         20% { color: gold; }
         50% { color: goldenrod; }
-        800% { color: gold; }
+        80% { color: gold; }
         100% { color: rgb(255, 255, 0); }
         }
 
@@ -49,20 +128,20 @@
             0% { color: goldenrod; }
             20% { color: gold; }
             50% { color: rgb(255, 255, 0); }
-            800% { color: gold; }
+            80% { color: gold; }
             100% { color: goldenrod; }
             }
+        @keyframes color-change3 {
+                0% { background-color: goldenrod; }
+                20% { background-color: gold; }
+                50% { background-color: rgb(255, 255, 0); }
+                80% { background-color: gold; }
+                100% { background-color: goldenrod; }
+                }
+       
     
         div {
             width: 70%;
             height: 20px;
             margin:  50px auto;
-              }
-              #topbar {
-                background-color: rgb(255, 196, 0);
-                position: relative;
-                bottom: 160px
-              }
-              #bottom {
-                background-color: blue;
-              }
+            }
