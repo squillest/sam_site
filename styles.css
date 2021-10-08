@@ -11,13 +11,14 @@
         border-width: 5px;
         height: 400px;  
         position: relative;
-        bottom: 200px;      
+        bottom: 220px;      
             }
     .center {
         text-align: center;
+        font-size: 30pt;
         font-family: 'Raleway', sans-serif;
         position: relative;
-        bottom: 100px;
+        bottom: 120px;
         font-weight: bold !important;  
     }
 
@@ -60,7 +61,7 @@
               #topbar {
                 background-color: rgb(255, 196, 0);
                 position: relative;
-                bottom: 100px
+                bottom: 160px
               }
               #bottom {
                 background-color: blue;
